@@ -14,7 +14,6 @@ public class Main {
         //Вариант 1 - Два цикла
         long m = System.currentTimeMillis();
         String[] uniqMassive = new String[massive.length];
-
         for (int i = 0; i < massive.length; i++) {
             if (massive[i] != null) {
                 //Сохраняем в массиве уникальных значений элемент из основного массива
@@ -119,4 +118,3 @@ public class Main {
         variantThree(mas);//Самый быстрый вариант! Скорость почти не падает при увеличении массива!
     }
 }
-
